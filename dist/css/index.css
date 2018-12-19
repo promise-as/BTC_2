@@ -31,6 +31,7 @@ body {
 .home_warp {
   /*头部*/
   /*平台*/
+  /*全球*/
   /*底部*/
 }
 .home_warp .home_header {
@@ -182,15 +183,13 @@ body {
   margin-top: 100px;
 }
 .home_warp .home_platform {
-  height: 1663px;
   background: #edf0f2;
 }
 .home_warp .home_platform .container {
-  height: 1663px;
   border: 1px solid #EDF0F2;
+  padding-bottom: 20px;
 }
 .home_warp .home_platform .container .platform_main {
-  height: 1000px;
   margin-top: -492px;
   /*标题2*/
   /*副标题*/
@@ -509,9 +508,12 @@ body {
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content {
   width: 1188px;
-  border: 1px solid gray;
   margin-left: auto;
   margin-right: auto;
+  display: none;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content.active {
+  display: block;
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_header {
   width: 1120px;
@@ -532,7 +534,7 @@ body {
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item {
   height: 54px;
-  padding-left: 40px;
+  padding-left: 36px;
   padding-right: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -567,13 +569,13 @@ body {
   color: #505050;
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:first-child {
-  width: 227px;
+  width: 224px;
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(2) {
-  width: 258px;
+  width: 260px;
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(3) {
-  width: 261px;
+  width: 260px;
 }
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(3) > span {
   color: #d33434;
@@ -587,12 +589,310 @@ body {
   background: url("../images/icon/icon_jy_1.png") no-repeat;
   margin-right: 0;
 }
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item:last-child {
+  padding-bottom: 20px;
+}
 .home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item:hover {
   background-color: #FBFBFB;
+}
+.home_warp .home_global {
+  height: 290px;
+  background: url("../images/bg/bnt_bg.png") no-repeat;
+  /*全球的 底部内容*/
+}
+.home_warp .home_global .container {
+  /*全球tab切换*/
+}
+.home_warp .home_global .container .global_tab {
+  height: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.home_warp .home_global .container .global_tab .tab_item {
+  width: 95px;
+  height: 125px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.home_warp .home_global .container .global_tab .tab_item .item_img {
+  width: 57px;
+  height: 57px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home_warp .home_global .container .global_tab .tab_item > p {
+  font-size: 15px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+.home_warp .home_global .container .global_tab .tab_item:first-child {
+  margin-left: 30px;
+}
+.home_warp .home_global .container .global_tab .tab_item:first-child .item_img {
+  background: url("../images/icon/fen_icon_fb1.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:nth-child(2) .item_img {
+  background: url("../images/icon/fen_icon_bb1.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:nth-child(3) .item_img {
+  background: url("../images/icon/fen_icon_hy1.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:nth-child(4) .item_img {
+  background: url("../images/icon/fen_icon_xm1.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:nth-child(5) {
+  margin-right: 30px;
+}
+.home_warp .home_global .container .global_tab .tab_item:nth-child(5) .item_img {
+  background: url("../images/icon/fen_icon_tg1.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover {
+  /*三角形背景*/
+  background: url("../images/icon/fen_bg1.png") no-repeat center bottom;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover:first-child .item_img {
+  background: url("../images/icon/fen_icon_fb2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover:nth-child(2) .item_img {
+  background: url("../images/icon/fen_icon_bb2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover:nth-child(3) .item_img {
+  background: url("../images/icon/fen_icon_hy2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover:nth-child(4) .item_img {
+  background: url("../images/icon/fen_icon_xm2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover:nth-child(5) .item_img {
+  background: url("../images/icon/fen_icon_tg2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .tab_item:hover > p {
+  color: #0E254B;
+}
+.home_warp .home_global .container .global_tab .active {
+  background: url("../images/icon/fen_bg1.png") no-repeat center bottom;
+}
+.home_warp .home_global .container .global_tab .active > p {
+  color: #0E254B;
+}
+.home_warp .home_global .container .global_tab .active:first-child .item_img {
+  background: url("../images/icon/fen_icon_fb2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .active:nth-child(2) .item_img {
+  background: url("../images/icon/fen_icon_bb2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .active:nth-child(3) .item_img {
+  background: url("../images/icon/fen_icon_hy2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .active:nth-child(4) .item_img {
+  background: url("../images/icon/fen_icon_xm2.png") no-repeat;
+}
+.home_warp .home_global .container .global_tab .active:nth-child(5) .item_img {
+  background: url("../images/icon/fen_icon_tg2.png") no-repeat;
+}
+.home_warp .home_global .global_content {
+  height: 135px;
+  background: #0e254b;
+}
+.home_warp .home_global .global_content .container .content_item {
+  width: 300px;
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #ffffff;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 40px;
+  display: none;
+}
+.home_warp .home_global .global_content .container .active {
+  display: block;
+}
+.home_warp .home_global .global_content .container .active:first-child {
+  margin-left: 0;
+}
+.home_warp .home_global .global_content .container .active:nth-child(2) {
+  margin-left: 220px;
+}
+.home_warp .home_global .global_content .container .active:nth-child(3) {
+  width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home_warp .home_global .global_content .container .active:nth-child(4) {
+  width: 430px;
+  margin-left: 610px;
+}
+.home_warp .home_global .global_content .container .active:nth-child(5) {
+  margin-left: 900px;
 }
 .home_warp .footer {
   background: #0e1527;
 }
-.home_warp .footer .container .footer_main {
+.home_warp .footer .container {
   height: 245px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_warp .footer .container .footer_main {
+  width: 100%;
+  height: 152px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .footer .container .footer_main .main_column {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  line-height: 36px;
+  color: #6F7682;
+}
+.home_warp .footer .container .footer_main .main_column .column_logo {
+  width: 119px;
+  height: 34px;
+  background: url("../images/logo/logo.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column > p {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column .column_item:first-child {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column .column_item:hover {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column:last-child {
+  width: 600px;
+  border: 1px solid gray;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download {
+  height: 43px;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left {
+  width: 216px;
+  height: 43px;
+  border: 1px solid green;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left > span {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content {
+  height: 20px;
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid red;
+  cursor: pointer;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .detail_ico {
+  width: 17px;
+  height: 20px;
+  border: 1px solid white;
+  background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail > span {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #6f7682;
+  line-height: 20px;
+  margin-left: 15px;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail:nth-child(2) .detail_ico {
+  background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail:nth-child(2):hover .detail_ico {
+  background: url("../images/icon/home_icon_and_nor_21.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail:hover > span {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail:hover .detail_ico {
+  background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right {
+  width: 300px;
+  height: 43px;
+  border: 1px solid green;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right > span {
+  color: white;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content {
+  height: 20px;
+  border: 1px solid blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid red;
+  cursor: pointer;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .detail_ico {
+  width: 17px;
+  height: 20px;
+  border: 1px solid white;
+  background: url("../images/icon/home_icon_win_nor_3.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail > span {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #6f7682;
+  line-height: 20px;
+  margin-left: 15px;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2) .detail_ico {
+  background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(3) .detail_ico {
+  background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:hover > span {
+  color: white;
 }

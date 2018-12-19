@@ -198,13 +198,14 @@ body {
 
   /*平台*/
   .home_platform {
-    height: 1663px;
+    //height: 1663px;
     background: rgba(237, 240, 242, 1);
     .container {
-      height: 1663px;
-      border: 1px solid #EDF0F2;
+      //height: 1663px;
+      border: 1px solid #EDF0F2; // 不能注释，否则整体上不去
+      padding-bottom: 20px;
       .platform_main {
-        height: 1000px;
+        //height: 1000px;
         //border: 1px solid #000;
         margin-top: -492px;
         /*标题2*/
@@ -493,7 +494,6 @@ body {
                 }
 
                 &:last-child {
-                  //padding-bottom: 20px;
                   //border: 1px solid red;
                   .item_content {
                     &:nth-child(2) {
@@ -547,9 +547,14 @@ body {
               width: 1188px;
               //height: 991px;
               //background: rgba(238, 238, 238, 1);
-              border: 1px solid gray;
+              //border: 1px solid gray;
               margin-left: auto;
               margin-right: auto;
+              display: none;
+              &.active {
+                display: block;
+              }
+
               .content_header {
                 width: 1120px;
                 height: 16px;
@@ -569,7 +574,7 @@ body {
                 //width: 1120px;
                 height: 54px;
                 //border: 1px solid green;
-                padding-left: 40px;
+                padding-left: 36px;
                 padding-right: 40px;
                 margin-left: auto;
                 margin-right: auto;
@@ -602,15 +607,15 @@ body {
                   }
 
                   &:first-child {
-                    width: 227px;
+                    width: 224px;
                   }
 
                   &:nth-child(2) {
-                    width: 258px;
+                    width: 260px;
                   }
 
                   &:nth-child(3) {
-                    width: 261px;
+                    width: 260px;
                     > span {
                       color: rgba(211, 52, 52, 1);
                     }
@@ -629,6 +634,10 @@ body {
                     }
                   }
                 }
+                &:last-child {
+                  //border: 1px solid red;
+                  padding-bottom: 20px;
+                }
                 &:hover {
                   background-color: #FBFBFB;
                 }
@@ -640,12 +649,338 @@ body {
     }
   }
 
+  /*全球*/
+  .home_global {
+    height: 290px;
+    //border: 1px solid gray;
+    background: url("../images/bg/bnt_bg.png") no-repeat;
+    .container {
+      /*全球tab切换*/
+      .global_tab {
+        height: 155px;
+        //border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+        .tab_item {
+          width: 95px;
+          height: 125px;
+          //border: 1px solid gray;
+          margin-top: 30px;
+          cursor: pointer;
+          .item_img {
+            width: 57px;
+            height: 57px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          > p {
+            font-size: 15px;
+            font-family: Adobe Heiti Std R;
+            font-weight: normal;
+            color: rgba(255, 255, 255, 1);
+            //line-height:46px;
+            margin-top: 20px;
+            text-align: center;
+          }
+          &:first-child {
+            margin-left: 30px;
+            .item_img {
+              background: url("../images/icon/fen_icon_fb1.png") no-repeat;
+            }
+          }
+          &:nth-child(2) {
+            .item_img {
+              background: url("../images/icon/fen_icon_bb1.png") no-repeat;
+            }
+          }
+          &:nth-child(3) {
+            .item_img {
+              background: url("../images/icon/fen_icon_hy1.png") no-repeat;
+            }
+          }
+          &:nth-child(4) {
+            .item_img {
+              background: url("../images/icon/fen_icon_xm1.png") no-repeat;
+            }
+          }
+          &:nth-child(5) {
+            margin-right: 30px;
+            .item_img {
+              background: url("../images/icon/fen_icon_tg1.png") no-repeat;
+            }
+          }
+          &:hover {
+            /*三角形背景*/
+            background: url("../images/icon/fen_bg1.png") no-repeat center bottom;
+            &:first-child {
+              .item_img {
+                background: url("../images/icon/fen_icon_fb2.png") no-repeat;
+              }
+            }
+            &:nth-child(2) {
+              .item_img {
+                background: url("../images/icon/fen_icon_bb2.png") no-repeat;
+              }
+            }
+            &:nth-child(3) {
+              .item_img {
+                background: url("../images/icon/fen_icon_hy2.png") no-repeat;
+              }
+            }
+            &:nth-child(4) {
+              .item_img {
+                background: url("../images/icon/fen_icon_xm2.png") no-repeat;
+              }
+            }
+            &:nth-child(5) {
+              .item_img {
+                background: url("../images/icon/fen_icon_tg2.png") no-repeat;
+              }
+            }
+
+            > p {
+              color: #0E254B;
+            }
+          }
+        }
+        .active {
+          > p {
+            color: #0E254B;
+          }
+
+          background: url("../images/icon/fen_bg1.png") no-repeat center bottom;
+          &:first-child {
+            .item_img {
+              background: url("../images/icon/fen_icon_fb2.png") no-repeat;
+            }
+          }
+          &:nth-child(2) {
+            .item_img {
+              background: url("../images/icon/fen_icon_bb2.png") no-repeat;
+            }
+          }
+          &:nth-child(3) {
+            .item_img {
+              background: url("../images/icon/fen_icon_hy2.png") no-repeat;
+            }
+          }
+          &:nth-child(4) {
+            .item_img {
+              background: url("../images/icon/fen_icon_xm2.png") no-repeat;
+            }
+          }
+          &:nth-child(5) {
+            .item_img {
+              background: url("../images/icon/fen_icon_tg2.png") no-repeat;
+            }
+          }
+        }
+      }
+    }
+    /*全球的 底部内容*/
+    .global_content {
+      height: 135px;
+      background: rgba(14, 37, 75, 1);
+      .container {
+        .content_item {
+          width: 300px;
+          //height: 39px;
+          font-size: 14px;
+          font-family: Adobe Heiti Std R;
+          font-weight: normal;
+          color: rgba(255, 255, 255, 1);
+          line-height: 24px;
+          text-align: center;
+          //border: 1px solid red;
+          padding-top: 40px;
+          display: none;
+        }
+        .active {
+          display: block;
+          &:first-child {
+            margin-left: 0;
+          }
+          &:nth-child(2) {
+            margin-left: 220px;
+          }
+          &:nth-child(3) {
+            width: 430px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          &:nth-child(4) {
+            width: 430px;
+            margin-left: 610px;
+          }
+          &:nth-child(5) {
+            margin-left: 900px;
+          }
+        }
+      }
+
+    }
+  }
+
   /*底部*/
   .footer {
+
     background: rgba(14, 21, 39, 1);
     .container {
+      height: 245px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //border: 1px solid white;
       .footer_main {
-        height: 245px;
+        width: 100%;
+        height: 152px;
+        //border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+        .main_column {
+          //border: 1px solid red;
+          font-size: 14px;
+          font-family: Adobe Heiti Std R;
+          font-weight: normal;
+          line-height: 36px;
+          color: #6F7682;
+
+          .column_logo {
+            width: 119px;
+            height: 34px;
+            background: url("../images/logo/logo.png") no-repeat;
+          }
+          > p {
+            color: white;
+          }
+
+          .column_item {
+            &:first-child {
+              color: white;
+            }
+            &:hover {
+              color: white;
+            }
+          }
+          &:last-child {
+            width: 600px;
+            border: 1px solid gray;
+          }
+
+          .column_app_download {
+            height: 43px;
+            border: 1px solid white;
+            display: flex;
+            justify-content: space-between;
+            .app_download_left {
+              width: 216px;
+              height: 43px;
+              border: 1px solid green;
+              > span {
+                color: white;
+              }
+
+              .left_content {
+                height: 20px;
+                border: 1px solid blue;
+                display: flex;
+                justify-content: space-between;
+                .content_detail {
+                  //width: 52px;
+                  display: flex;
+                  justify-content: space-between;
+                  border: 1px solid red;
+                  cursor: pointer;
+                  .detail_ico {
+                    width: 17px;
+                    height: 20px;
+                    border: 1px solid white;
+                    background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                  }
+                  > span {
+                    font-size: 14px;
+                    font-family: Adobe Heiti Std R;
+                    font-weight: normal;
+                    color: rgba(111, 118, 130, 1);
+                    line-height: 20px;
+                    margin-left: 15px;
+                  }
+                  &:nth-child(2) {
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+                    }
+                    &:hover{
+                      .detail_ico {
+                        background: url("../images/icon/home_icon_and_nor_21.png") no-repeat;
+                      }
+                    }
+                  }
+
+                  &:hover {
+                    > span {
+                      color: white;
+                    }
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
+                    }
+                  }
+                }
+              }
+            }
+
+            .app_download_right {
+              width: 300px;
+              height: 43px;
+              border: 1px solid green;
+              > span {
+                color: white;
+              }
+              .right_content {
+                height: 20px;
+                border: 1px solid blue;
+                display: flex;
+                justify-content: space-between;
+                .content_detail {
+                  //width: 52px;
+                  display: flex;
+                  justify-content: space-between;
+                  border: 1px solid red;
+                  cursor: pointer;
+                  .detail_ico {
+                    width: 17px;
+                    height: 20px;
+                    border: 1px solid white;
+                    background: url("../images/icon/home_icon_win_nor_3.png") no-repeat;
+                  }
+                  > span {
+                    font-size: 14px;
+                    font-family: Adobe Heiti Std R;
+                    font-weight: normal;
+                    color: rgba(111, 118, 130, 1);
+                    line-height: 20px;
+                    margin-left: 15px;
+                  }
+                  &:nth-child(2) {
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                    }
+                  }
+                  &:nth-child(3) {
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+                    }
+                  }
+
+                  &:hover {
+                    > span {
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
