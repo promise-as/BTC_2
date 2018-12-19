@@ -196,6 +196,8 @@ body {
   /*副标题*/
   /*数字数据*/
   /*赚到*/
+  /*公告*/
+  /*交易*/
 }
 .home_warp .home_platform .container .platform_main .main_h2 {
   font-size: 43px;
@@ -282,6 +284,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+          box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+  border-radius: 10px;
 }
 .home_warp .home_platform .container .platform_main .main_gain .gain_item .item_content > p {
   color: white;
@@ -306,6 +311,284 @@ body {
 }
 .home_warp .home_platform .container .platform_main .main_gain .gain_item:nth-child(4) {
   background: url("../images/bg/bg_lv.png") no-repeat;
+}
+.home_warp .home_platform .container .platform_main .main_notice {
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item {
+  width: 590px;
+  background: #ffffff;
+  -webkit-box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+          box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content {
+  width: 506px;
+  margin-top: 29px;
+  margin-bottom: 24px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p > span:first-child {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #505050;
+  line-height: 26px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p > span:nth-child(2) {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #c0c3c8;
+  line-height: 26px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p:first-child {
+  margin-bottom: 10px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p:first-child > span:first-child {
+  font-size: 16px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0e1527;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > p:first-child > span:nth-child(2) {
+  font-size: 13px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0f67dc;
+}
+.home_warp .home_platform .container .platform_main .main_deal {
+  background: #ffffff;
+  -webkit-box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+          box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
+  border-radius: 10px;
+  margin-top: 23px;
+  /*交易头部*/
+  /*交易主体*/
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header {
+  height: 129px;
+  background: url("../images/img/img.png") no-repeat bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content {
+  width: 1124px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item {
+  width: 300px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content {
+  text-align: left;
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0e1527;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content > strong {
+  margin-left: 20px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content .content_percent {
+  width: 68px;
+  height: 23px;
+  background: #34d3b2;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 23px;
+  color: white;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content:nth-child(2) {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content:nth-child(2) > span {
+  margin-right: 12px;
+  line-height: 35px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item .item_content:nth-child(2) > span:first-child {
+  font-size: 23px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0f67dc;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item:nth-child(3) .item_content .content_percent {
+  background: #d33434;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item:nth-child(5) .item_content .content_percent {
+  background: #d33434;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_item:last-child .item_content:nth-child(2) > strong {
+  margin-left: 12px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_line {
+  width: 1px;
+  height: 52px;
+  background: #c0c3c8;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_header .header_content .content_line:last-child {
+  display: none;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body {
+  /*交易主体的头部*/
+  /*交易主体的内容*/
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_header {
+  height: 134px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_header .header_content {
+  width: 249px;
+  height: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_header .header_content .content_item {
+  display: inline;
+  color: #0e1527;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_header .header_content .active {
+  color: #0f67dc;
+  border-bottom: 1px solid #0F67DC;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content {
+  width: 1188px;
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_header {
+  width: 1120px;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #505050;
+  margin-bottom: 20px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item {
+  height: 54px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #EEEEEE;
+  cursor: pointer;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column .column_img {
+  width: 18px;
+  height: 18px;
+  background: url("../images/icon/icon_1.png") no-repeat;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column .column_img:hover {
+  background: url("../images/icon/icon_xz.png") no-repeat;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column > span {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #505050;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:first-child {
+  width: 227px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(2) {
+  width: 258px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(3) {
+  width: 261px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(3) > span {
+  color: #d33434;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:nth-child(4) {
+  width: 342px;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item .item_column:last-child .column_img {
+  width: 20px;
+  height: 20px;
+  background: url("../images/icon/icon_jy_1.png") no-repeat;
+  margin-right: 0;
+}
+.home_warp .home_platform .container .platform_main .main_deal .deal_body .body_content .content_item:hover {
+  background-color: #FBFBFB;
 }
 .home_warp .footer {
   background: #0e1527;
