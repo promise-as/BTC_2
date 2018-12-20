@@ -865,8 +865,12 @@ body {
           &:last-child {
             width: 600px;
             border: 1px solid gray;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
           }
 
+          /*app下载*/
           .column_app_download {
             height: 43px;
             border: 1px solid white;
@@ -875,41 +879,308 @@ body {
             .app_download_left {
               width: 216px;
               height: 43px;
-              border: 1px solid green;
+              //border: 1px solid green;
               > span {
                 color: white;
               }
-
               .left_content {
                 height: 20px;
-                border: 1px solid blue;
+                //border: 1px solid blue;
                 display: flex;
                 justify-content: space-between;
                 .content_detail {
                   //width: 52px;
-                  display: flex;
-                  justify-content: space-between;
-                  border: 1px solid red;
+                  //display: flex;
+                  //justify-content: space-between;
+                  //border: 1px solid red;
                   cursor: pointer;
                   .detail_ico {
                     width: 17px;
                     height: 20px;
-                    border: 1px solid white;
-                    background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                    //border: 1px solid white;
+                    float: left;
                   }
                   > span {
                     font-size: 14px;
                     font-family: Adobe Heiti Std R;
                     font-weight: normal;
                     color: rgba(111, 118, 130, 1);
-                    line-height: 20px;
+                    line-height: 26px;
                     margin-left: 15px;
+                    float: left;
+                  }
+
+                  &:first-child {
+                    width: 60px;
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                    }
+                    &:hover {
+                      .detail_ico {
+                        background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
+                      }
+                      .IOS_QRcode {
+                        display: block;
+                      }
+                    }
+                  }
+
+                  &:nth-child(2) {
+                    width: 90px;
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+                      //margin-left: 20px;
+                    }
+
+                    &:hover {
+                      .detail_ico {
+                        background: url("../images/icon/home_icon_and_nor_21.png  ") no-repeat;
+                      }
+                      .Android_QRcode {
+                        display: block;
+                      }
+                    }
+                  }
+
+                  .IOS_QRcode {
+                    width: 120px;
+                    height: 128px;
+                    padding: 16px 20px 5px;
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.30);
+                    box-sizing: border-box;
+                    position: relative;
+                    z-index: 90;
+                    top: -137px;
+                    left: -34px;
+                    font-size: 0px;
+                    //border: 1px solid red;
+                    display: none;
+                    
+                    > img{
+                      width: 80px;
+                      height: 80px;
+                      border: 1px solid red;
+                      margin-top: -12px;
+                    }
+
+                    > p{
+                      font-size: 12px;
+                      text-align: center;
+                      //line-height: 28px;
+                      color: #031C23;
+                      margin: -22px;
+                    }
+
+                    .arrow-down{
+                      display: inline-block;
+                      vertical-align: top;
+                      border-top: 10px solid white;
+                      border-right: 10px solid transparent;
+                      border-left: 10px solid transparent;
+                      content: "";
+                      margin-top: 23px;
+                      margin-left: 66px;
+                    }
+                  }
+
+                  .Android_QRcode {
+                    width: 120px;
+                    height: 128px;
+                    padding: 16px 20px 5px;
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.30);
+                    box-sizing: border-box;
+                    position: relative;
+                    z-index: 90;
+                    top: -137px;
+                    left: -15px;
+                    font-size: 0px;
+                    border: 1px solid red;
+                    display: none;
+
+                    > img{
+                      width: 80px;
+                      height: 80px;
+                      border: 1px solid red;
+                      margin-top: -12px;
+                    }
+
+                    > p{
+                      font-size: 12px;
+                      text-align: center;
+                      //line-height: 28px;
+                      color: #031C23;
+                      margin: -22px;
+                    }
+
+                    .arrow-down{
+                      display: inline-block;
+                      vertical-align: top;
+                      border-top: 10px solid white;
+                      border-right: 10px solid transparent;
+                      border-left: 10px solid transparent;
+                      content: "";
+                      margin-top: 23px;
+                      margin-left: 66px;
+                    }
+                  }
+
+                  &:hover {
+                    > span {
+                      color: white;
+                    }
+
+                  }
+                }
+              }
+            }
+
+            .app_download_right {
+              width: 300px;
+              height: 43px;
+              //border: 1px solid green;
+              > span {
+                color: white;
+              }
+              .right_content {
+                height: 20px;
+                //border: 1px solid blue;
+                display: flex;
+                justify-content: space-between;
+                .content_detail {
+                  //width: 52px;
+                  display: flex;
+                  justify-content: space-between;
+                  //border: 1px solid red;
+                  cursor: pointer;
+                  .detail_ico {
+                    width: 17px;
+                    height: 20px;
+                    //border: 1px solid white;
+                  }
+                  > span {
+                    font-size: 14px;
+                    font-family: Adobe Heiti Std R;
+                    font-weight: normal;
+                    color: rgba(111, 118, 130, 1);
+                    line-height: 26px;
+                    margin-left: 15px;
+                  }
+
+                  .IOS_QRcode {
+                    width: 120px;
+                    height: 128px;
+                    padding: 16px 20px 5px;
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.30);
+                    box-sizing: border-box;
+                    position: relative;
+                    z-index: 90;
+                    top: -137px;
+                    left: -34px;
+                    font-size: 0px;
+                    //border: 1px solid red;
+                    display: none;
+
+                    > img{
+                      width: 80px;
+                      height: 80px;
+                      border: 1px solid red;
+                      margin-top: -12px;
+                    }
+
+                    > p{
+                      font-size: 12px;
+                      text-align: center;
+                      //line-height: 28px;
+                      color: #031C23;
+                      margin: -22px;
+                    }
+
+                    .arrow-down{
+                      display: inline-block;
+                      vertical-align: top;
+                      border-top: 10px solid white;
+                      border-right: 10px solid transparent;
+                      border-left: 10px solid transparent;
+                      content: "";
+                      margin-top: 23px;
+                      margin-left: 66px;
+                    }
+                  }
+
+                  .Android_QRcode {
+                    width: 120px;
+                    height: 128px;
+                    padding: 16px 20px 5px;
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.30);
+                    box-sizing: border-box;
+                    position: relative;
+                    z-index: 90;
+                    top: -137px;
+                    left: -15px;
+                    font-size: 0px;
+                    border: 1px solid red;
+                    display: none;
+
+                    > img{
+                      width: 80px;
+                      height: 80px;
+                      border: 1px solid red;
+                      margin-top: -12px;
+                    }
+
+                    > p{
+                      font-size: 12px;
+                      text-align: center;
+                      //line-height: 28px;
+                      color: #031C23;
+                      margin: -22px;
+                    }
+
+                    .arrow-down{
+                      display: inline-block;
+                      vertical-align: top;
+                      border-top: 10px solid white;
+                      border-right: 10px solid transparent;
+                      border-left: 10px solid transparent;
+                      content: "";
+                      margin-top: 23px;
+                      margin-left: 66px;
+                    }
+                  }
+
+                  &:first-child {
+                    .detail_ico {
+                      background: url("../images/icon/home_icon_win_nor_3.png") no-repeat;
+                    }
+                    &:hover {
+                      .detail_ico {
+                        background: url("../images/icon/home_icon_win_nor_31.png") no-repeat;
+                      }
+                    }
                   }
                   &:nth-child(2) {
                     .detail_ico {
+                      background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                    }
+                    &:hover {
+                      .detail_ico {
+                        background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
+                      }
+                    }
+                  }
+                  &:nth-child(3) {
+                    .detail_ico {
                       background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
                     }
-                    &:hover{
+                    &:hover {
                       .detail_ico {
                         background: url("../images/icon/home_icon_and_nor_21.png") no-repeat;
                       }
@@ -920,60 +1191,69 @@ body {
                     > span {
                       color: white;
                     }
-                    .detail_ico {
-                      background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
-                    }
                   }
                 }
               }
             }
+          }
 
-            .app_download_right {
-              width: 300px;
+          /*联系我们*/
+          .column_contact_us {
+            height: 43px;
+            border: 1px solid white;
+            display: flex;
+            justify-content: space-between;
+            .contact_us_content {
+              width: 216px;
               height: 43px;
-              border: 1px solid green;
+              //border: 1px solid red;
               > span {
                 color: white;
               }
-              .right_content {
-                height: 20px;
-                border: 1px solid blue;
+              .content_detail {
                 display: flex;
                 justify-content: space-between;
-                .content_detail {
-                  //width: 52px;
-                  display: flex;
-                  justify-content: space-between;
-                  border: 1px solid red;
+                .detail_ico {
                   cursor: pointer;
-                  .detail_ico {
-                    width: 17px;
-                    height: 20px;
-                    border: 1px solid white;
-                    background: url("../images/icon/home_icon_win_nor_3.png") no-repeat;
-                  }
-                  > span {
-                    font-size: 14px;
-                    font-family: Adobe Heiti Std R;
-                    font-weight: normal;
-                    color: rgba(111, 118, 130, 1);
-                    line-height: 20px;
-                    margin-left: 15px;
+                  &:first-child {
+                    width: 18px;
+                    height: 18px;
+                    background: url("../images/icon/home_icon_biao.png") no-repeat;
+                    &:hover {
+                      background: url("../images/icon/home_icon_biao2.png") no-repeat;
+                    }
                   }
                   &:nth-child(2) {
-                    .detail_ico {
-                      background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
+                    width: 23px;
+                    height: 18px;
+                    background: url("../images/icon/home_icon_weixin.png") no-repeat;
+                    &:hover {
+                      background: url("../images/icon/home_icon_weixin2.png") no-repeat;
                     }
                   }
                   &:nth-child(3) {
-                    .detail_ico {
-                      background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
+                    width: 21px;
+                    height: 17px;
+                    background: url("../images/icon/home_icon_weibo.png") no-repeat;
+                    &:hover {
+                      background: url("../images/icon/home_icon_weibo2.png") no-repeat;
                     }
                   }
-
-                  &:hover {
-                    > span {
-                      color: white;
+                  &:nth-child(4) {
+                    width: 22px;
+                    height: 18px;
+                    background: url("../images/icon/home_icon_ge.png") no-repeat;
+                    &:hover {
+                      background: url("../images/icon/home_icon_ge2.png") no-repeat;
+                    }
+                  }
+                  &:nth-child(5) {
+                    width: 11px;
+                    height: 22px;
+                    background: url("../images/icon/home_icon_f.png") no-repeat;
+                    margin-top: -5px;
+                    &:hover {
+                      background: url("../images/icon/home_icon_f2.png") no-repeat;
                     }
                   }
                 }
