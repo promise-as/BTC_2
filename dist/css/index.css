@@ -760,7 +760,7 @@ body {
   font-size: 14px;
   font-family: Adobe Heiti Std R;
   font-weight: normal;
-  line-height: 36px;
+  line-height: 30px;
   color: #6F7682;
   /*app下载*/
   /*联系我们*/
@@ -769,19 +769,20 @@ body {
   width: 119px;
   height: 34px;
   background: url("../images/logo/logo.png") no-repeat;
+  margin-bottom: 10px;
 }
 .home_warp .footer .container .footer_main .main_column > p {
-  color: white;
+  color: #6F7682;
 }
 .home_warp .footer .container .footer_main .main_column .column_item:first-child {
   color: white;
+  margin-top: 10px;
 }
 .home_warp .footer .container .footer_main .main_column .column_item:hover {
   color: white;
 }
 .home_warp .footer .container .footer_main .main_column:last-child {
   width: 600px;
-  border: 1px solid gray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -792,10 +793,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 10px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download {
   height: 43px;
-  border: 1px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,6 +819,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 6px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail {
   cursor: pointer;
@@ -880,23 +882,20 @@ body {
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .IOS_QRcode > img {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
   margin-top: -12px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .IOS_QRcode > p {
   font-size: 12px;
   text-align: center;
   color: #031C23;
-  margin: -22px;
+  margin: -18px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .IOS_QRcode .arrow-down {
   display: inline-block;
-  vertical-align: top;
   border-top: 10px solid white;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  content: "";
-  margin-top: 23px;
+  margin-top: 25px;
   margin-left: 66px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .Android_QRcode {
@@ -914,29 +913,25 @@ body {
   top: -137px;
   left: -15px;
   font-size: 0px;
-  border: 1px solid red;
   display: none;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .Android_QRcode > img {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
   margin-top: -12px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .Android_QRcode > p {
   font-size: 12px;
   text-align: center;
   color: #031C23;
-  margin: -22px;
+  margin: -18px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail .Android_QRcode .arrow-down {
   display: inline-block;
-  vertical-align: top;
   border-top: 10px solid white;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  content: "";
-  margin-top: 23px;
+  margin-top: 25px;
   margin-left: 66px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_left .left_content .content_detail:hover > span {
@@ -957,19 +952,15 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 6px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   cursor: pointer;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .detail_ico {
   width: 17px;
   height: 20px;
+  float: left;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail > span {
   font-size: 14px;
@@ -978,6 +969,7 @@ body {
   color: #6f7682;
   line-height: 26px;
   margin-left: 15px;
+  float: left;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .IOS_QRcode {
   width: 120px;
@@ -991,7 +983,7 @@ body {
           box-sizing: border-box;
   position: relative;
   z-index: 90;
-  top: -137px;
+  top: -140px;
   left: -34px;
   font-size: 0px;
   display: none;
@@ -999,23 +991,20 @@ body {
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .IOS_QRcode > img {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
   margin-top: -12px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .IOS_QRcode > p {
   font-size: 12px;
   text-align: center;
   color: #031C23;
-  margin: -22px;
+  margin: -18px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .IOS_QRcode .arrow-down {
   display: inline-block;
-  vertical-align: top;
   border-top: 10px solid white;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  content: "";
-  margin-top: 23px;
+  margin-top: 25px;
   margin-left: 66px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .Android_QRcode {
@@ -1030,32 +1019,28 @@ body {
           box-sizing: border-box;
   position: relative;
   z-index: 90;
-  top: -137px;
-  left: -15px;
+  top: -140px;
+  left: -28px;
   font-size: 0px;
-  border: 1px solid red;
   display: none;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .Android_QRcode > img {
   width: 80px;
   height: 80px;
-  border: 1px solid red;
   margin-top: -12px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .Android_QRcode > p {
   font-size: 12px;
   text-align: center;
   color: #031C23;
-  margin: -22px;
+  margin: -18px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail .Android_QRcode .arrow-down {
   display: inline-block;
-  vertical-align: top;
   border-top: 10px solid white;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
-  content: "";
-  margin-top: 23px;
+  margin-top: 25px;
   margin-left: 66px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:first-child .detail_ico {
@@ -1064,11 +1049,26 @@ body {
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:first-child:hover .detail_ico {
   background: url("../images/icon/home_icon_win_nor_31.png") no-repeat;
 }
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2) {
+  width: 56px;
+}
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2) .detail_ico {
   background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2):hover .detail_ico {
   background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2):hover .IOS_QRcode {
+  display: block;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2) .detail_ico {
+  float: left;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(2) > span {
+  float: right;
+}
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(3) {
+  width: 90px;
 }
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(3) .detail_ico {
   background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
@@ -1076,12 +1076,14 @@ body {
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(3):hover .detail_ico {
   background: url("../images/icon/home_icon_and_nor_21.png") no-repeat;
 }
+.home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:nth-child(3):hover .Android_QRcode {
+  display: block;
+}
 .home_warp .footer .container .footer_main .main_column .column_app_download .app_download_right .right_content .content_detail:hover > span {
   color: white;
 }
 .home_warp .footer .container .footer_main .main_column .column_contact_us {
   height: 43px;
-  border: 1px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1103,6 +1105,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 6px;
 }
 .home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico {
   cursor: pointer;
@@ -1114,14 +1117,6 @@ body {
 }
 .home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico:first-child:hover {
   background: url("../images/icon/home_icon_biao2.png") no-repeat;
-}
-.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico:nth-child(2) {
-  width: 23px;
-  height: 18px;
-  background: url("../images/icon/home_icon_weixin.png") no-repeat;
-}
-.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico:nth-child(2):hover {
-  background: url("../images/icon/home_icon_weixin2.png") no-repeat;
 }
 .home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico:nth-child(3) {
   width: 21px;
@@ -1147,4 +1142,55 @@ body {
 }
 .home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .detail_ico:nth-child(5):hover {
   background: url("../images/icon/home_icon_f2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat {
+  width: 23px;
+  height: 18px;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat:hover .wechat_QRcode {
+  display: block;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_ico {
+  width: 23px;
+  height: 18px;
+  background: url("../images/icon/home_icon_weixin.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_ico:hover {
+  background: url("../images/icon/home_icon_weixin2.png") no-repeat;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_QRcode {
+  width: 120px;
+  height: 128px;
+  padding: 16px 20px 5px;
+  background-color: #FFF;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.3);
+          box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  z-index: 90;
+  top: -160px;
+  left: -50px;
+  font-size: 0px;
+  display: none;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_QRcode > img {
+  width: 80px;
+  height: 80px;
+  margin-top: -2px;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_QRcode > p {
+  font-size: 12px;
+  text-align: center;
+  color: #031C23;
+  margin: -18px;
+}
+.home_warp .footer .container .footer_main .main_column .column_contact_us .contact_us_content .content_detail .wechat .wechat_QRcode .arrow-down {
+  display: inline-block;
+  border-top: 10px solid white;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  margin-top: 25px;
+  margin-left: 32px;
 }

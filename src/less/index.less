@@ -842,21 +842,22 @@ body {
           font-size: 14px;
           font-family: Adobe Heiti Std R;
           font-weight: normal;
-          line-height: 36px;
+          line-height: 30px;
           color: #6F7682;
-
           .column_logo {
             width: 119px;
             height: 34px;
             background: url("../images/logo/logo.png") no-repeat;
+            margin-bottom: 10px;
           }
           > p {
-            color: white;
+            color: #6F7682;
           }
 
           .column_item {
             &:first-child {
               color: white;
+              margin-top: 10px;
             }
             &:hover {
               color: white;
@@ -864,16 +865,17 @@ body {
           }
           &:last-child {
             width: 600px;
-            border: 1px solid gray;
+            //border: 1px solid gray;
             display: flex;
             flex-flow: column nowrap;
             justify-content: space-between;
+            margin-top: 10px;
           }
 
           /*app下载*/
           .column_app_download {
             height: 43px;
-            border: 1px solid white;
+            //border: 1px solid white;
             display: flex;
             justify-content: space-between;
             .app_download_left {
@@ -888,6 +890,7 @@ body {
                 //border: 1px solid blue;
                 display: flex;
                 justify-content: space-between;
+                margin-top: 6px;
                 .content_detail {
                   //width: 52px;
                   //display: flex;
@@ -909,7 +912,6 @@ body {
                     margin-left: 15px;
                     float: left;
                   }
-
                   &:first-child {
                     width: 60px;
                     .detail_ico {
@@ -924,14 +926,12 @@ body {
                       }
                     }
                   }
-
                   &:nth-child(2) {
                     width: 90px;
                     .detail_ico {
                       background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
                       //margin-left: 20px;
                     }
-
                     &:hover {
                       .detail_ico {
                         background: url("../images/icon/home_icon_and_nor_21.png  ") no-repeat;
@@ -941,7 +941,6 @@ body {
                       }
                     }
                   }
-
                   .IOS_QRcode {
                     width: 120px;
                     height: 128px;
@@ -961,7 +960,7 @@ body {
                     > img{
                       width: 80px;
                       height: 80px;
-                      border: 1px solid red;
+                      //border: 1px solid red;
                       margin-top: -12px;
                     }
 
@@ -970,21 +969,18 @@ body {
                       text-align: center;
                       //line-height: 28px;
                       color: #031C23;
-                      margin: -22px;
+                      margin: -18px;
                     }
 
                     .arrow-down{
                       display: inline-block;
-                      vertical-align: top;
                       border-top: 10px solid white;
                       border-right: 10px solid transparent;
                       border-left: 10px solid transparent;
-                      content: "";
-                      margin-top: 23px;
+                      margin-top: 25px;
                       margin-left: 66px;
                     }
                   }
-
                   .Android_QRcode {
                     width: 120px;
                     height: 128px;
@@ -998,46 +994,38 @@ body {
                     top: -137px;
                     left: -15px;
                     font-size: 0px;
-                    border: 1px solid red;
+                    //border: 1px solid red;
                     display: none;
-
                     > img{
                       width: 80px;
                       height: 80px;
-                      border: 1px solid red;
+                      //border: 1px solid red;
                       margin-top: -12px;
                     }
-
                     > p{
                       font-size: 12px;
                       text-align: center;
                       //line-height: 28px;
                       color: #031C23;
-                      margin: -22px;
+                      margin: -18px;
                     }
-
                     .arrow-down{
                       display: inline-block;
-                      vertical-align: top;
                       border-top: 10px solid white;
                       border-right: 10px solid transparent;
                       border-left: 10px solid transparent;
-                      content: "";
-                      margin-top: 23px;
+                      margin-top: 25px;
                       margin-left: 66px;
                     }
                   }
-
                   &:hover {
                     > span {
                       color: white;
                     }
-
                   }
                 }
               }
             }
-
             .app_download_right {
               width: 300px;
               height: 43px;
@@ -1050,16 +1038,18 @@ body {
                 //border: 1px solid blue;
                 display: flex;
                 justify-content: space-between;
+                margin-top: 6px;
                 .content_detail {
                   //width: 52px;
-                  display: flex;
-                  justify-content: space-between;
+                  //display: flex;
+                  //justify-content: space-between;
                   //border: 1px solid red;
                   cursor: pointer;
                   .detail_ico {
                     width: 17px;
                     height: 20px;
                     //border: 1px solid white;
+                    float: left;
                   }
                   > span {
                     font-size: 14px;
@@ -1068,8 +1058,8 @@ body {
                     color: rgba(111, 118, 130, 1);
                     line-height: 26px;
                     margin-left: 15px;
+                    float: left;
                   }
-
                   .IOS_QRcode {
                     width: 120px;
                     height: 128px;
@@ -1080,39 +1070,33 @@ body {
                     box-sizing: border-box;
                     position: relative;
                     z-index: 90;
-                    top: -137px;
+                    top: -140px;
                     left: -34px;
                     font-size: 0px;
                     //border: 1px solid red;
                     display: none;
-
                     > img{
                       width: 80px;
                       height: 80px;
-                      border: 1px solid red;
+                      //border: 1px solid red;
                       margin-top: -12px;
                     }
-
                     > p{
                       font-size: 12px;
                       text-align: center;
                       //line-height: 28px;
                       color: #031C23;
-                      margin: -22px;
+                      margin: -18px;
                     }
-
                     .arrow-down{
                       display: inline-block;
-                      vertical-align: top;
                       border-top: 10px solid white;
                       border-right: 10px solid transparent;
                       border-left: 10px solid transparent;
-                      content: "";
-                      margin-top: 23px;
+                      margin-top: 25px;
                       margin-left: 66px;
                     }
                   }
-
                   .Android_QRcode {
                     width: 120px;
                     height: 128px;
@@ -1123,16 +1107,16 @@ body {
                     box-sizing: border-box;
                     position: relative;
                     z-index: 90;
-                    top: -137px;
-                    left: -15px;
+                    top: -140px;
+                    left: -28px;
                     font-size: 0px;
-                    border: 1px solid red;
+                    //border: 1px solid red;
                     display: none;
 
                     > img{
                       width: 80px;
                       height: 80px;
-                      border: 1px solid red;
+                      //border: 1px solid red;
                       margin-top: -12px;
                     }
 
@@ -1141,21 +1125,18 @@ body {
                       text-align: center;
                       //line-height: 28px;
                       color: #031C23;
-                      margin: -22px;
+                      margin: -18px;
                     }
 
                     .arrow-down{
                       display: inline-block;
-                      vertical-align: top;
                       border-top: 10px solid white;
                       border-right: 10px solid transparent;
                       border-left: 10px solid transparent;
-                      content: "";
-                      margin-top: 23px;
+                      margin-top: 25px;
                       margin-left: 66px;
                     }
                   }
-
                   &:first-child {
                     .detail_ico {
                       background: url("../images/icon/home_icon_win_nor_3.png") no-repeat;
@@ -1167,6 +1148,8 @@ body {
                     }
                   }
                   &:nth-child(2) {
+                    width: 56px;
+                    //border: 1px solid blue;
                     .detail_ico {
                       background: url("../images/icon/home_icon_iphone_sel.png") no-repeat;
                     }
@@ -1174,9 +1157,20 @@ body {
                       .detail_ico {
                         background: url("../images/icon/home_icon_iphone_sel2.png") no-repeat;
                       }
+                      .IOS_QRcode {
+                        display: block;
+                      }
+                    }
+
+                    .detail_ico {
+                      float: left;
+                    }
+                    > span {
+                      float: right;
                     }
                   }
                   &:nth-child(3) {
+                    width: 90px;
                     .detail_ico {
                       background: url("../images/icon/home_icon_and_nor_2.png") no-repeat;
                     }
@@ -1184,9 +1178,11 @@ body {
                       .detail_ico {
                         background: url("../images/icon/home_icon_and_nor_21.png") no-repeat;
                       }
+                      .Android_QRcode {
+                        display: block;
+                      }
                     }
                   }
-
                   &:hover {
                     > span {
                       color: white;
@@ -1196,11 +1192,10 @@ body {
               }
             }
           }
-
           /*联系我们*/
           .column_contact_us {
             height: 43px;
-            border: 1px solid white;
+            //border: 1px solid white;
             display: flex;
             justify-content: space-between;
             .contact_us_content {
@@ -1213,6 +1208,8 @@ body {
               .content_detail {
                 display: flex;
                 justify-content: space-between;
+                //border: 1px solid red;
+                margin-top: 6px;
                 .detail_ico {
                   cursor: pointer;
                   &:first-child {
@@ -1223,14 +1220,14 @@ body {
                       background: url("../images/icon/home_icon_biao2.png") no-repeat;
                     }
                   }
-                  &:nth-child(2) {
-                    width: 23px;
-                    height: 18px;
-                    background: url("../images/icon/home_icon_weixin.png") no-repeat;
-                    &:hover {
-                      background: url("../images/icon/home_icon_weixin2.png") no-repeat;
-                    }
-                  }
+                  //&:nth-child(2) {
+                  //  width: 23px;
+                  //  height: 18px;
+                  //  background: url("../images/icon/home_icon_weixin.png") no-repeat;
+                  //  &:hover {
+                  //    background: url("../images/icon/home_icon_weixin2.png") no-repeat;
+                  //  }
+                  //}
                   &:nth-child(3) {
                     width: 21px;
                     height: 17px;
@@ -1254,6 +1251,64 @@ body {
                     margin-top: -5px;
                     &:hover {
                       background: url("../images/icon/home_icon_f2.png") no-repeat;
+                    }
+                  }
+                }
+                .wechat{
+                  width: 23px;
+                  height: 18px;
+                  //border: 1px solid blue;
+                  &:hover{
+                    .wechat_QRcode{
+                      display: block;
+                    }
+                  }
+                  .wechat_ico{
+                    width: 23px;
+                    height: 18px;
+                    background: url("../images/icon/home_icon_weixin.png") no-repeat;
+                    &:hover {
+                      background: url("../images/icon/home_icon_weixin2.png") no-repeat;
+                    }
+                  }
+                  .wechat_QRcode {
+                    width: 120px;
+                    height: 128px;
+                    padding: 16px 20px 5px;
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 20px 0px rgba(21, 32, 54, 0.30);
+                    box-sizing: border-box;
+                    position: relative;
+                    z-index: 90;
+                    top: -160px;
+                    left: -50px;
+                    font-size: 0px;
+                    //border: 1px solid red;
+                    display: none;
+
+                    > img{
+                      width: 80px;
+                      height: 80px;
+                      //border: 1px solid red;
+                      margin-top: -2px;
+                    }
+
+                    > p{
+                      font-size: 12px;
+                      text-align: center;
+                      //line-height: 28px;
+                      color: #031C23;
+                      margin: -18px;
+                    }
+
+                    .arrow-down{
+                      display: inline-block;
+                      border-top: 10px solid white;
+                      border-right: 10px solid transparent;
+                      border-left: 10px solid transparent;
+                      margin-top: 25px;
+                      margin-left: 32px;
                     }
                   }
                 }
