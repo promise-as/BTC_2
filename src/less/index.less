@@ -401,6 +401,52 @@ body {
                   }
                 }
               }
+              > a {
+                display: flex;
+                justify-content: space-between;
+
+                > span {
+                  &:first-child {
+                    font-size: 14px;
+                    font-family: Adobe Heiti Std R;
+                    font-weight: normal;
+                    color: rgba(80, 80, 80, 1);
+                    line-height: 26px;
+                  }
+                  &:nth-child(2) {
+                    font-size: 14px;
+                    font-family: Adobe Heiti Std R;
+                    font-weight: normal;
+                    color: rgba(192, 195, 200, 1);
+                    line-height: 26px;
+                  }
+                }
+
+                &:first-child {
+                  margin-bottom: 10px;
+                  > span {
+                    &:first-child {
+                      font-size: 16px;
+                      font-family: Adobe Heiti Std R;
+                      font-weight: normal;
+                      color: rgba(14, 21, 39, 1);
+                      //line-height: 16px;
+                    }
+                    &:nth-child(2) {
+                      font-size: 13px;
+                      font-family: Adobe Heiti Std R;
+                      font-weight: normal;
+                      color: rgba(15, 103, 220, 1);
+                      //line-height: 13px;
+                    }
+                  }
+                }
+                &:hover{
+                  > span{
+                    color: #0072EF;
+                  }
+                }
+              }
             }
           }
         }

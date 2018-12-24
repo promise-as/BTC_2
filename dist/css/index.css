@@ -378,6 +378,46 @@ body {
   font-weight: normal;
   color: #0f67dc;
 }
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a > span:first-child {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #505050;
+  line-height: 26px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a > span:nth-child(2) {
+  font-size: 14px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #c0c3c8;
+  line-height: 26px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a:first-child {
+  margin-bottom: 10px;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a:first-child > span:first-child {
+  font-size: 16px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0e1527;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a:first-child > span:nth-child(2) {
+  font-size: 13px;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: #0f67dc;
+}
+.home_warp .home_platform .container .platform_main .main_notice .notice_item .item_content > a:hover > span {
+  color: #0072EF;
+}
 .home_warp .home_platform .container .platform_main .main_deal {
   background: #ffffff;
   -webkit-box-shadow: 6px 5px 13px 0px rgba(14, 21, 39, 0.1);
